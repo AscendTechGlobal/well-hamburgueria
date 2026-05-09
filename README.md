@@ -1,15 +1,25 @@
 # Well Hamburgueria
 
-Landing page institucional da Well Hamburgueria, desenvolvida em React + Vite, com foco em apresentar a marca, a historia da empresa, as unidades e os canais de pedido.
+![Hero da Well Hamburgueria](public/assets/burger-hero.jpg)
 
-## Visao geral
+Landing page institucional da Well Hamburgueria, desenvolvida em React + Vite para apresentar a marca, contar sua historia, destacar as unidades e facilitar o acesso a pedidos e contato.
 
-O projeto foi estruturado para destacar:
+## Projeto
 
-- posicionamento da marca e proposta visual da Well
-- historia da hamburgueria e da fundadora Vanessa Cirne
-- unidades em Porto Alegre e Viamao
-- acessos rapidos para WhatsApp, mapa e pedidos online
+Este site foi estruturado para comunicar a identidade da Well de forma emocional e comercial ao mesmo tempo:
+
+- apresentar a proposta visual e o posicionamento da marca
+- contar a historia da Well e de Vanessa Cirne
+- destacar as unidades ativas e seus canais de atendimento
+- levar o usuario com rapidez para WhatsApp, mapas e pedidos online
+
+## Destaques
+
+- pagina inicial com proposta visual forte e foco em conversao
+- pagina de historia da marca com narrativa institucional
+- dados centralizados das unidades em `src/data/site.ts`
+- integracoes com WhatsApp, Instagram, Google Maps e links de pedido
+- base pronta para evolucao de SEO, analytics e novas paginas
 
 ## Stack
 
@@ -17,23 +27,6 @@ O projeto foi estruturado para destacar:
 - TypeScript
 - Vite
 - React Router DOM
-
-## Como rodar localmente
-
-```bash
-npm install
-npm run dev
-```
-
-A aplicacao sera iniciada em ambiente local pelo Vite.
-
-## Scripts disponiveis
-
-```bash
-npm run dev
-npm run build
-npm run preview
-```
 
 ## Estrutura principal
 
@@ -48,7 +41,46 @@ public/
   assets/       Imagens publicas do site
 ```
 
-## Informacoes de negocio no projeto
+## Como rodar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+O Vite iniciara um servidor local para desenvolvimento.
+
+## Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+```
+
+## Build de producao
+
+```bash
+npm run build
+```
+
+Os arquivos finais serao gerados na pasta `dist/`.
+
+## Deploy
+
+Este projeto pode ser publicado facilmente em plataformas estaticas como:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+Fluxo recomendado:
+
+1. instalar dependencias com `npm install`
+2. gerar a build com `npm run build`
+3. publicar o conteudo da pasta `dist/`
+
+## Informacoes de negocio
 
 Atualmente o projeto inclui conteudo e links para:
 
@@ -56,16 +88,16 @@ Atualmente o projeto inclui conteudo e links para:
 - Unidade Campo Belo - Hipica
 - Unidade Itapua
 
-Tambem contem integracoes de navegacao para:
+Tambem inclui navegacao para:
 
 - WhatsApp
 - Instagram
 - Google Maps
-- links de pedido online
+- pedidos online
 
-## Publicacao
+## Repositorio
 
-Repositorio publico:
+GitHub:
 
 `https://github.com/AscendTechGlobal/well-hamburgueria`
 
